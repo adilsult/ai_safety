@@ -1,4 +1,4 @@
-# SecureRAG Auditor (Demo)
+# SecureRAG Auditor (Demo) by adilsultanx
 
 Enterprise-focused AI security demo showing how to detect and prevent permission leakage in RAG systems.
 
@@ -9,7 +9,7 @@ Core concept:
 
 All data in this repository is synthetic demo data.
 
-## Tech Stack
+## Tech stack
 - Next.js 14 (App Router) + TypeScript
 - Tailwind CSS + shadcn/ui
 - Zustand
@@ -34,18 +34,18 @@ Open:
 - `/audit` Audit log + detail modal
 - `/docs` How it works (architecture + integration guide)
 
-## Demo Highlights
+## Demo highlights
 - Role switcher for 4 personas (`CEO`, `Sales Rep`, `Support Analyst`, `External Partner`)
 - Structured field-level redaction + regex fallback
 - Deterministic prompt-injection confidence scoring
 - Red-team outcomes based on actual response behavior (`blocked`, `partial`, `clean`)
 - Live audit entries from Playground and Red Team
 
-## Keyboard Shortcuts
+## shortcuts
 - `Cmd/Ctrl + K` Open quick query modal
 - `R` Trigger scan on Overview page
 
-## 5-Minute Demo Script
+## Short demo script
 1. Go to `/overview` and run a scan (`Run New Scan` or `R`).
 2. Go to `/playground`, switch to `Support Analyst`, ask about executive salaries.
 3. Show leakage in `Insecure RAG` vs safe response in `SecureRAG`.
